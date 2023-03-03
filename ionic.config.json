@@ -1,0 +1,7 @@
+{
+  "name": "exhrb",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
