@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #212121 !important;
+    text-decoration: none;
+}
+
+p.title {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+p.content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+p.dontforget {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.bg-grey {
+    background-image: url("../../assets/grey-background.jpg");
+    padding: 12px;
+    box-shadow: 0px 5px 5px #eee;
+    background-size: cover;
+}
+
+.container {
+    margin: 0px 12px;
+}
+
+.listmenu-dashboard p.title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #212121;
+}
+
+.listresep ul {
+    padding-inline-start: 0px;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.listresep ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.listresep ul li figure {
+    width: 160px;
+    height: 120px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.listresep ul li p.title {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    overflow: hidden;
+    width: 150px;
+}
+
+.listresep ul li p.jumlahkal {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    overflow: hidden;
+    width: 150px;
+    color: #ED7014;
+}
+
+.listpromo ul {
+    padding-inline-start: 0px;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.listpromo ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.listpromo ul li figure {
+    width: 160px;
+    height: 160px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 24px;
+}
+
+.listmenu-dashboard ion-item {
+    --padding-start: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    -webkit-box-shadow: none;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: none;
+}
+
+.progress {
+    width: 110px;
+    height: 110px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background: transparent;
+    text-align: center;
+    line-height: 15px;
+    margin: 0px;
+    margin-left: 7px;
+    padding-top: 40px;
+}
+
+p.progress-title {
+    margin: 0px;
+}
+
+p.progress-content {
+    margin: 5px 0px 0px 0px;
+    font-size: 8px;
+    color: #757575;
+}
+
+// .progress::after {content: "%";}
+
+.progress .title {position: relative;z-index: 100;}
+
+.progress .overlay {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.progress .left, .progress .right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 10px solid #ED7014;
+    border-radius: 100px 0px 0px 100px;
+    border-right: 0;
+    transform-origin: right;
+}
+
+.progress .left {animation: load1 1s linear forwards;}
+
+.progress:nth-of-type(2) .right, .progress:nth-of-type(3) .right {animation: load2 .5s linear forwards 1s;}
+
+.progress:last-of-type .right, .progress:first-of-type .right {animation: load3 .8s linear forwards 1s;}
+
+@keyframes load1 {
+    0% {transform: rotate(0deg);}
+
+    100% {transform: rotate(180deg);}
+}
+
+@keyframes load2 {
+    0% {z-index: 100;transform: rotate(180deg);}
+
+    100% {z-index: 100;transform: rotate(270deg);}
+}
+
+@keyframes load3 {
+    0% {z-index: 100;transform: rotate(180deg);}
+
+    100% {
+        z-index: 100;transform: rotate(315deg);}
+}

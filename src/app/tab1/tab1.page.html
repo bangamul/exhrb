@@ -1,0 +1,207 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 1te
+    </ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content [fullscreen]="true">
+  <!-- <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <app-explore-container name="Tab 1 page"></app-explore-container> -->
+  
+  <main>
+    
+    <div class="container">
+      <p class="title">Halo, Kamu</p>
+    </div>
+    
+    <div class="container">
+      <ion-grid>
+        <ion-row class="ion-justify-content-center bg-grey">
+          <ion-col size="8">
+            <ion-row>
+              <ion-col size="8">
+                <p class="content">Target Kalori</p>    
+              </ion-col>
+              <ion-col size="4">
+                <p class="content">2027 Kal</p>    
+              </ion-col>
+              <ion-col size="8">
+                <p class="content">Asupan Kalori Maks</p>    
+              </ion-col>
+              <ion-col size="4">
+                <p class="content">2240 Kal</p>    
+              </ion-col>
+              <ion-col size="8">
+                <p class="content">Kalori Dikonsumsi</p>    
+              </ion-col>
+              <ion-col size="4">
+                <p class="content">0 Kal</p>    
+              </ion-col>
+              <ion-col size="8">
+                <p class="content">Kalori dari Aktivitas</p>    
+              </ion-col>
+              <ion-col size="4">
+                <p class="content">0 Kal</p>    
+              </ion-col>
+            </ion-row>
+          </ion-col>
+          <ion-col size="4">
+            <div class="ion-text-start">
+              <div class="progress">
+                <span class="title timer" data-from="0" data-to="85" data-speed="1800">
+                  <p class="progress-title">2027</p>
+                  <p class="progress-content">Kalori Tersedia</p>
+                </span>
+                <div class="overlay"></div>
+                <div class="left"></div>
+                <div class="right"></div>
+              </div>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+    <div class="container">
+      <p class="dontforget">Jangan lupa untuk</p>      
+      <div class="listmenu-dashboard">
+        <ion-item button detail="true">
+          <ion-thumbnail slot="start">
+            <img alt="Isi Penilaian Kesehatan" src="assets/penilaian.png" />
+          </ion-thumbnail>
+          <ion-label>
+            <p class="title">Isi Penilaian Kesehatan</p>
+            <p>Kenali kondisi kesehatanmu sendiri</p>
+          </ion-label>
+        </ion-item>
+        
+        <ion-item button detail="true">
+          <ion-thumbnail slot="start">
+            <img alt="Riwayat Kesehatan" src="assets/riwayat.png" />
+          </ion-thumbnail>
+          <ion-label>
+            <p class="title">Riwayat Kesehatan</p>
+            <p>Pantau kesehatanmu</p>
+          </ion-label>
+        </ion-item>
+        
+        <ion-item button detail="true">
+          <ion-thumbnail slot="start">
+            <img alt="Cek IMT" src="assets/imt.png" />
+          </ion-thumbnail>
+          <ion-label>
+            <p class="title">Cek IMT</p>
+            <p>Cari tau IMT kamu</p>
+          </ion-label>
+        </ion-item>
+        
+        <ion-item button detail="true">
+          <ion-thumbnail slot="start">
+            <img alt="Kalkulator Kalori" src="assets/kalkulator.png" />
+          </ion-thumbnail>
+          <ion-label>
+            <p class="title">Kalkulator Kalori</p>
+            <p>Temukan asupan kalorimu</p>
+          </ion-label>
+        </ion-item>
+      </div>
+    </div>
+
+    <div class="container">
+      <p class="dontforget">Resep Dapur</p>
+      <div class="listresep">
+        <ul>
+          <li>
+            <a href="#">
+              <figure>
+                <img src="assets/recipe/capcay.jpg" alt="">
+              </figure>
+              <p class="title">Capcay Enak</p>
+              <p class="jumlahkal">316.000 Kal</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <figure>
+                <img src="assets/recipe/brownies.jpg" alt="">
+              </figure>
+              <p class="title">Brownies Kukus</p>
+              <p class="jumlahkal">316.000 Kal</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <figure>
+                <img src="assets/recipe/acar-timun.jpg" alt="">
+              </figure>
+              <p class="title">Acar Timun Nanas</p>
+              <p class="jumlahkal">316.000 Kal</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <figure>
+                <img src="assets/recipe/bakmi-goreng.jpg" alt="">
+              </figure>
+              <p class="title">Bakmi Goreng</p>
+              <p class="jumlahkal">316.000 Kal</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <figure>
+                <img src="assets/recipe/ayam-brokoli.jpg" alt="">
+              </figure>
+              <p class="title">Ayam Brokoli</p>
+              <p class="jumlahkal">316.000 Kal</p>
+            </a>
+          </li>
+        </ul>
+      </div> 
+    </div>
+
+    <div class="container">
+      <p class="dontforget">Promo</p>
+      <div class="listpromo">
+        <ul>
+          <li>
+            <a href="#">
+              <figure>
+                <img src="assets/promo/promo1.jpg" alt="">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <figure>
+                <img src="assets/promo/promo2.jpg" alt="">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <figure>
+                <img src="assets/promo/promo3.avif" alt="">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <figure>
+                <img src="assets/promo/promo4.avif" alt="">
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </div> 
+    </div>
+    
+  </main>
+</ion-content>
