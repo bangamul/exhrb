@@ -1,0 +1,39 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>datadiri</ion-title>
+  </ion-toolbar>
+</ion-header>
+ -->
+
+ <ion-content>
+
+  <main>
+    <div class="container">
+
+      <p class="title">Index Masa Tubuh</p>
+  
+      <ion-list>
+        <ion-item>
+          <ion-label position="stacked">Berat Badan ( kg )</ion-label>
+          <ion-input placeholder="contoh : 60"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="stacked">Tinggi Badan ( cm )</ion-label>
+          <ion-input placeholder="contoh : 60"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="stacked">Umur ( tahun )</ion-label>
+          <ion-input value="28" [disabled]="true"></ion-input>
+        </ion-item>
+      </ion-list>
+      
+    </div>
+  
+    <div class="container">
+      <div class="mt24">
+        <ion-button expand="full" [routerLink]="['/imthasil']" >Selanjutnya</ion-button>
+      </div>
+    </div>
+  </main>
+
+</ion-content>
