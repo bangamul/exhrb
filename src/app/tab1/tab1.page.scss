@@ -23,7 +23,11 @@ p.content {
 p.dontforget {
     font-weight: 800;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 0px;
+}
+
+.listresep ul {
+    margin-bottom: 0px !important;
 }
 
 .bg-grey {
@@ -113,6 +117,10 @@ p.dontforget {
 
 ::-webkit-scrollbar-thumb:window-inactive {
     background: none;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
 }
 
 .progress {

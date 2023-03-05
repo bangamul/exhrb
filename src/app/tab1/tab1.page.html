@@ -21,7 +21,7 @@
       <p class="title">Halo, Kamu</p>
     </div>
     
-    <div class="container top-fadeout">
+    <div class="container top-fadeout mb-24">
       <ion-grid>
         <ion-row class="ion-justify-content-center bg-grey">
           <ion-col size="8">
@@ -69,7 +69,7 @@
       </ion-grid>
     </div>
 
-    <div class="container">
+    <div class="container mb-24">
       <p class="dontforget">Jangan lupa untuk</p>      
       <div class="listmenu-dashboard">
         <ion-item button detail="true">
@@ -92,7 +92,7 @@
           </ion-label>
         </ion-item>
         
-        <ion-item button detail="true">
+        <ion-item button detail="true" [routerLink]="['/datadiriss']">
           <ion-thumbnail slot="start">
             <img alt="Cek IMT" src="assets/imt.png" />
           </ion-thumbnail>
@@ -102,7 +102,7 @@
           </ion-label>
         </ion-item>
         
-        <ion-item button detail="true">
+        <ion-item button detail="true" [routerLink]="['/kalkulatorkalori']">
           <ion-thumbnail slot="start">
             <img alt="Kalkulator Kalori" src="assets/kalkulator.png" />
           </ion-thumbnail>
@@ -114,7 +114,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container mb-24">
       <p class="dontforget">Resep Dapur</p>
       <div class="listresep">
         <ul>
