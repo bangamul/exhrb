@@ -21,6 +21,10 @@ const routes: Routes = [
   {
     path: 'imthasil',
     loadChildren: () => import('./imthasil/imthasil.module').then( m => m.ImthasilPageModule)
+  },
+  {
+    path: 'kalkulatorkalori',
+    loadChildren: () => import('./kalkulatorkalori/kalkulatorkalori.module').then( m => m.KalkulatorkaloriPageModule)
   }
 ];
 @NgModule({
